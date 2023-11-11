@@ -1,0 +1,31 @@
+syntax = "proto3";
+package entity;
+
+option go_package = "github.com/theluckiestsoul/protoc-gen-structtag/example/pkg/proto";
+
+message HelloRequest{
+    string name = 1;
+}
+
+message HelloResponse{
+    string message = 1;
+}
+
+message User{
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+    string password = 4;
+    string phone = 5;
+    string address = 6;
+    string city = 7;
+    string state = 8;
+    string country = 9;
+    string zip = 10;
+    string createdAt = 11;
+    string updatedAt = 12;
+    string deletedAt = 13;
+    string lastLogin = 14;
+    string lastLoginIp = 15;
+    string lastLoginLocation = 16;
+}
