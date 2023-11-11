@@ -1,1 +1,1 @@
-# protoc-gen-goapigw
+# protoc-gen-structtag
